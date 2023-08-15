@@ -1,0 +1,16 @@
+Capstone Project : COVID-19 prediction using LSTM algorithm
+
+In our project, we are interested on the county level cases data. From the country level data, we would be taking the three different time series summary including confirmed, deaths and recovered covid cases across the world. They are named as
+
+· time_series_covid19_recovered_global.csv
+· time_series_covid19_deaths_global.csv
+· time_series_covid19_confirmed_global.csv
+
+Problem statement
+As a data scientist your role is to extract the times series records of confirmed, recovered and death related information for the country INDIA from the above url.
+As you know, Long Short-Term Memory (LSTM) networks are a type of recurrent neural network (RNN) capable of learning order dependence in sequence prediction problems.
+After preprocessing the raw data, you are assigned to build a LSTM model to predict the below:
+Confirmed cases
+Recovered cases
+Death cases
+Mortality Rate
