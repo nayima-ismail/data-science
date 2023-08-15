@@ -1,0 +1,53 @@
+1. Topic modelling based on reviews on Amazon
+
+Problem statement: Online shopping is all over the internet. All our needs are just a click away. The biggest online shopping website Amazon known for its variety of products and sells more than lacs of product each day.
+Amazon used to collect the feedback/tweets/texts from each customer though various medium like facebook, email etc. Automatic segmentation of this  text would benefit on their management process.  
+The objective of this project is to conduct LDA topic modelling find various topics that are present in your corpus and each document in the corpus will be made up of at least one topic
+Dataset: reviews.csv
+This is a subset data set of Amazon Review Data 
+
+2. Story Telling with Netflix data
+Problem statement: With a company like Netflix that is brimming with data, it’s always a wise decision to put that pile of data to good use . The aim of this project to conduct 
+Exploratory Data analysis
+Construct the wordcloud for the country, cast in the shows, Directors and movie categories
+
+Dataset : netflix_titles.csv
+https://www.kaggle.com/shivamb/netflix-shows 
+This dataset collected from tv shows and movies available on Netflix search engine as of 2019. 
+
+3. Personality classification
+Background : The Myers–Briggs Type Indicator (MBTI) is a kind of psychological classification about humans experience using four principal psychological functions, sensation, intuition, feeling, and thinking, constructed by Katharine Cook Briggs and her daughter Isabel Briggs Myers. 
+The Myers Briggs Type Indicator (or MBTI for short) is a personality type system that divides everyone into 16 distinct personality types across 4 axis:
+Introversion (I) – Extroversion (E)
+Intuition (N) – Sensing (S)
+Thinking (T) – Feeling (F)
+Judging (J) – Perceiving (P)
+The purpose of the Myers-Briggs Type Indicator® (MBTI®) personality inventory is to make the theory of psychological types described by C. G. Jung understandable and useful in people's lives
+
+Problem statement: The objective of this model to conduct exploratory data analysis and basic  text analytics Based on Word Clouds from the given dataset.
+
+Dataset: mbti1_csv
+https://www.kaggle.com/datasnaek/mbti-type
+
+4. Regularize the coefficient of IPL auction analytics
+o	This helps to avoid over fitting of the model
+Data Description:
+The IPL is professional cricket t20 league championship started in India in 2008. It was initiated by BCCI with 8 franchises comprising players across the world. The first IPL auction was held in 2008  for ownership of the teams for 10 years, with base price of USD 50 Billion. The franchises acquire players through an auction that is conducted every year. However , there are several rules imposed by the  IPL. The performance of the players could be measured many ways. Although the IPL follows twenty20 format of the game, it is possible that the performance of the players in the other format of the game such as test and ODI matches can influence the player pricing   The data set consist of performance 0f 130 players measured through various performance measure metrics such as batting , bowling etc.  
+Data set name: IPL IMB381IPL2013.CSV
+Objective: Build model  and  egularize the coefficient to understand what features of players are influencing their SOLD PRICE  or predict the player’s auction price in future. 
+Activities to be performed
+•	Loading data set
+•	Standardization of columns
+•	Encoding categorical features
+•	Building model on the train data set
+•	Plotting the coefficient values and RMSE
+•	Handling Multi collinearity using VIFs
+•	Building the model after removing Multi collinearity
+•	Residual analysis using P-P plot
+•	Apply regularization: Ridge, LASSO, elasticnet
+•	Detecting influencers
+•	Transforming response variable 
+
+
+
+
