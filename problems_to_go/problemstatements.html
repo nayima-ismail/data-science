@@ -48,6 +48,25 @@ Activities to be performed
 •	Detecting influencers
 •	Transforming response variable 
 
-
-
+5. We will be using the customer churn data from the telecom industry that we used in week 1 for this week's exercises. The data file is called `Orange_Telecom_Churn_Data.csv`.
+Activities to be included:
+•	Import the customer churn data, which is found in the file Orange_Telecom_Churn_Data.csv. 
+•	Remove any columns that are likely not to be used for prediction.
+•	Encode data types as appropriate
+•	Examine distribution of the predicted variable (churned).
+•	Split the data into train and test sets. Decide if a stratified split should be used or not based on the distribution.
+•	Examine the distribution of the predictor variable in the train and test data.
+•	Fit random forest models with a range of tree numbers and evaluate the out-of-bag error for each of these models.
+•	Plot the resulting oob errors as a function of the number of trees.
+•	Repeat question 3 using extra randomized trees (ExtraTreesClassifier). Note that the bootstrap parameter will have to be set to True for this model.
+•	Compare the out-of-bag errors for the two different types of models.
+•	Select one of the models that performs well and calculate error metrics and a confusion matrix on the test data set. 
+•	Given the distribution of the predicted class, which metric is most important? Which could be deceiving?
+•	Print or visualize the confusion matrix.
+•	Plot the ROC-AUC and precision-recall curves.
+•	Plot the feature importances.
+•	Create different objects using multiple smoting methods
+Ex: os_sm = os_smote.SMOTE(random_state=45, ratio = 0.6)
+•	Fit random forest models with a range of tree numbers and evaluate the out-of-bag error for each of these models.
+•	Plot the resulting oob errors as a function of the number of trees
 
